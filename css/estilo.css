@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');:root{
+    --cor1:#161C3D;
+    --cor2:#6F7794;
+    --cor3:#C8D0E8;
+    --cor4:#FFFFFF;
+    --cor5:#691120;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cor3);
+    font-family: "Urbanist", sans-serif;}
+
+header{
+    background-image: linear-gradient(to top, var(--cor3),var(--cor1));
+    min-height: 130px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+
+header > h1{
+    color: var(--cor4);
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+header > P{
+    color: black;
+}
+
+nav{
+    background-color: var(--cor3);
+    padding: 10px;
+    box-shadow:  -8px 1px 7px 0px #0000004d;
+}
+
+nav > a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: var(--cor4);
+}
+
+main{
+   background-color: #FFFF; 
+   color: #000;
+   min-width: 320px;
+   max-width: 1000px;
+   margin:auto;
+   margin-top: 5px;
+   padding: 20px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   text-align: center;
+   box-shadow: 3px 2px 5px 0px;
+}
+
+main h2{
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    padding: 5px 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+main p{
+    font-size: 1.2rem;
+    text-align: justify;
+    text-indent: 20px;
+    margin: 15px;
+}
+
+main img{
+    width: 30%;
+    border: 10px double var(--cor1);
+}
+
+iframe{
+    width: 60%;
+    border: 10px double var(--cor1) ;
+    margin-bottom: 10px;
+}
+
+pre{
+    font-size: 15px;
+
+}
+
+figcaption{
+    font-size: 10px;
+}
+
+aside{
+    background-color: var(--cor3);
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+aside >ul{
+    list-style-position: inside;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+aside h3{
+    background-color: var(--cor2);
+    padding: 10px;
+    margin: -20px -0.5px 0px -0.4px;
+}
+
+footer p{
+    font-size: 14px;
+    padding:0px ;
+    text-align: center ;
+}
